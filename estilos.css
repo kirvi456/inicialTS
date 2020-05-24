@@ -1,0 +1,33 @@
+html[theme="dark"] {
+  --body-backgound: #1f1f1f;
+  --global-background: #303030;
+  --card-shadow: rgba(10, 14, 29, 0.02) 0px 8px 16px 0px,
+    rgba(10, 14, 29, 0.06) 0px 8px 40px 0px;
+
+  --employ-one: linear-gradient(-45deg, #c43535, #14be55);
+  --c2-gray: #262d38;
+  --green: #fd9c0b;
+}
+
+html {
+  --body-backgound: #f7f7f9;
+  --global-background: #fff;
+  --card-shadow: rgba(10, 14, 29, 0.02) 0px 8px 16px 0px,
+    rgba(10, 14, 29, 0.06) 0px 8px 40px 0px;
+}
+
+body {
+  background-color: var(--body-backgound);
+}
+
+div {
+  box-sizing: border-box;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
